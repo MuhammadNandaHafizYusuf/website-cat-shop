@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* Nav Header */
+
+    header{
+        font-size: 45px;
+        color: white;
+        user-select: none;
+        font-family: 'Courgette', cursive;
+    }
+    
+    nav{
+        background: #02555A;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       align-items: center;
+       padding: 0 50px 0 100px ;
+       box-shadow: 0px 8px 24px;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+    }
+    nav ul li{
+        margin: 12px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        padding: 10px 15px;
+        border-radius: 12px;
+        font-family: 'Secular One', sans-serif;
+        transition: all 1s ease ;
+    }
+    
+    nav ul li a:hover,
+    nav ul li a.active{
+        background: white;
+        color: black;
+        text-decoration: none;
+    }
+    .dropdown:hover .isi-dropdown {
+		display: block;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #fff !important;
+        border-radius: 12px;
+        padding: 10px 15px;
+        text-decoration: none;
+	}
+ 
+	.isi-dropdown {
+		position: fixed;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1px;
+		background-color: #02555A;
+        width: fit-content;
+        border-radius: 12px;
+        padding: 10px 15px;
+        transition: all 1s ease
+	}
+ 
+	.isi-dropdown a {
+		color: #ffffff !important;
+        text-decoration: none;
+	}
+ 
+	.isi-dropdown a:hover {
+		color: #232323 !important;
+		background: #f3f3f3 !important;
+        transition: all 1s ease
+	}
+   

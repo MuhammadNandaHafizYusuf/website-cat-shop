@@ -1,0 +1,35 @@
+.img-responsive{
+    box-shadow: 0px 8px 24px;
+}
+#nama_produk{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+#harga_produk{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+#edit_input{
+    font-family: 'Secular One', sans-serif;
+    color: #02555A;
+}
+#Beli{
+    background:#02555A ;
+    color: white;
+}
+#stok_produk{
+    font-size: 20px;
+    color: #02555A;
+}
+#deskripsi{
+    margin-top: 20px;
+}
+.deskripsi_label{
+    font-size: 30px;
+    text-align : center;
+}
+.deskripsi_produk{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}

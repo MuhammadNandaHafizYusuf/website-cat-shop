@@ -1,0 +1,42 @@
+.judul{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    color: #02555A;
+}
+tr th{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background: #75b3b6;
+}
+.data2{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+}
+.button{
+    padding-left: 450px;
+}
+#belanja{
+    border-style: outset;
+    background: #9eedf1;
+    color: rgb(2, 2, 2);
+}
+#checkout{
+    border-style: outset;
+    background: #02555A;
+    color: white;
+}
+#belanja:hover,
+#belanja.active{
+    background: rgb(255, 255, 255);
+    color: #02555A;
+    transition: all 1s ease ;
+}
+#checkout:hover,
+#checkout.active{
+    background: rgb(255, 255, 255);
+    color: #02555A;
+    transition: all 1s ease ;
+}

@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* Nav Header */
+    body{
+        background: white;
+        
+    }
+    header{
+        font-size: 45px;
+        color: white;
+        user-select: none;
+        font-family: 'Courgette', cursive;
+    }
+    
+    nav{
+        background: #02555A;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       align-items: center;
+       padding: 0 50px 0 100px ;
+       box-shadow: 0px 8px 24px;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+    }
+    nav ul li{
+        margin: 12px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        padding: 10px 15px;
+        border-radius: 12px;
+        font-family: 'Secular One', sans-serif;
+        transition: all 1s ease ;
+    }
+    
+    nav ul li a:hover,
+    nav ul li a.active{
+        background: white;
+        color: black;
+    }
+    /* Login Menu  */
+    body{
+        height: min-content;
+        overflow-y: hidden; /* Hide scrollbars */
+    }
+    .header-login{
+        background: white url("../img/admingambar.png");
+        height: 1100px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .login-struct{
+        padding-left: 899px;
+        padding-top: 120px;
+    }
+    .login-struct h1{
+        font-size: 50px;
+        color: #02555A;
+        font-family: 'Secular One', sans-serif;
+        user-select: none;
+        text-align: center;
+    }
+    .login-struct p{
+        font-size: 30px;
+        font-family: 'Secular One', sans-serif;
+        color: #02555A;
+        padding-top: 15px;
+        user-select:none;
+    }
+    .login-struct .input-data{
+        width: 400px;
+        height: 30px;
+        border-radius: 35px;
+        box-shadow: 0px 1px 2px 2px;
+        border-style: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: medium;
+        text-align: center;
+    }
+
+    /* animasi untuk login */
+   
+
+    .button-login{
+        background: #024D52;
+        color: white;
+        margin-top: 15px;
+        margin-left: 110px;
+        width: 160px;
+        font-size: 20px;
+        padding: 10px 15px;
+        border-radius: 36.5px;
+        font-family: 'Poppins', sans-serif;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-transform: capitalize;
+        transition: all 1s ease ;
+    }
+/* animasi untuk login */
+    .button-login:hover,
+    .button-login.active{
+        background: white ;
+        color: black;
+    }
+
+.link{
+    padding-left: 800px;
+    padding-top: 20px;
+   text-decoration: none;
+   text-align: center;
+   margin: 4px;
+}
+.link .link-data{
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   
+
+}
+.link .link-data:hover,
+.link .link-data.active{
+    background: white;
+    color: black;
+}

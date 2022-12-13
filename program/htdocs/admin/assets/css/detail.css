@@ -1,0 +1,17 @@
+th{
+    text-align: center;
+    background: #75b3b6;
+    
+}
+.row{
+    font-family: 'Source Code Pro', monospace;
+}
+td{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px; 
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}

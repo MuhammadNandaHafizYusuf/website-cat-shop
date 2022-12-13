@@ -1,0 +1,40 @@
+#garis{
+    border-style: outset;
+    box-shadow: 0px 8px 24px;
+}
+
+#borderdalam{
+    border-style: none;
+}
+#nama_produk{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    color: #02555A;
+}
+#harga{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+#detail{
+    background: #02555A;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-style: outset;
+    margin-left: 35%;
+}
+#beli:hover,
+#beli.active{
+    background: rgb(255, 255, 255);
+    color: #02555A;
+    transition: all 1s ease ;
+}
+#detail:hover,
+#detail.active{
+    background: rgb(255, 255, 255);
+    color: #02555A;
+    transition: all 1s ease ;
+}

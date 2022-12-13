@@ -1,0 +1,23 @@
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+th{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background: #75b3b6;
+}
+
+.data2{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+}
+#hapus:hover,
+#hapus.active{
+    background: rgb(255, 255, 255) ;
+    color: rgb(151, 5, 5);
+    transition: all 1s ease ;
+}

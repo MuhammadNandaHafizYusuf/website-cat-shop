@@ -1,0 +1,47 @@
+.container{
+    background: white url("../gambar/register.png");
+    height: 615px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Secular One', sans-serif;
+    user-select: none;
+}
+.row{
+    margin-top: 40px;
+}
+label{
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    color: #02555A;
+}
+#inputdata{
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+#daftar{
+    margin-left: 150px;
+    background: #024D52;
+    color: white;
+    width: 160px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 36.5px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: capitalize;
+    transition: all 1s ease ;
+}
+#daftar:hover,
+#daftar.active{
+    background: white ;
+    color: black;
+}
+#panel{
+    background: #024D52;
+}

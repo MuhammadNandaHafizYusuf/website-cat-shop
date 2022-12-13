@@ -1,0 +1,60 @@
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+label{
+    font-family: 'Source Code Pro', monospace;
+}
+th{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background: #75b3b6;
+}
+option{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+input{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.data2{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+}
+#lihat{
+    margin: 2px;
+    width: 160px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 1s ease ;
+}
+#lihat:hover,
+#lihat.active{
+    background: white ;
+    color: black;
+}
+
+.download{
+    float: right;
+    margin-right: 30px;
+    width: 140px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    background: rgb(4, 92, 119);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: white 3px solid;  
+    transition: all 1s ease ;
+}
+.download:hover,
+.download.active{
+    background: rgb(161, 205, 235) ;
+    color: rgb(49, 28, 28);
+    transition: all 1s ease ;
+}

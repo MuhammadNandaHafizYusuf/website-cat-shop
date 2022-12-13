@@ -1,0 +1,43 @@
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+.data2{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+}
+th{
+    text-align: center;
+    background: #75b3b6;
+}
+
+
+#tambah{
+    float: right;
+}
+#tambah{
+   
+    background: #07a4af;
+    color: white;
+    width: 160px;
+    font-size: 20px;
+    margin: 14px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: capitalize;
+    transition: all 1s ease ;
+}
+#tambah:hover,
+#tambah.active{
+    background: white ;
+    color: black;
+}
+
+#aksi:hover,
+#aksi.active{
+    background: rgb(255, 255, 255) ;
+    color: rgb(151, 5, 5);
+    transition: all 1s ease ;
+}

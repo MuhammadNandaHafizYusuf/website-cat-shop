@@ -1,0 +1,11 @@
+.nav-messenge{
+    background: #02555A;
+    box-shadow: 0px 5px 24px;
+    height: 80px;
+    user-select: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
